@@ -31,7 +31,7 @@ const Skills = () => {
         <div className="flex flex-wrap -m-4">
           {skills.map((skill) => (
             <div key={skill.name} className="p-4 md:w-1/4 sm:w-full">
-              <div className="flex border border-gray-800 p-6 rounded-lg flex-col">
+              <div className="flex border border-gray-800 p-6  rounded-lg flex-col">
                 {skill.icon}
                 <h2 className="text-lg font-medium title-font mt-4 text-white">
                   {skill.name}
