@@ -21,7 +21,7 @@ const Education = () => {
             <p>Guru Ganesh Mishri Jain Arts and Science Jr. College.</p>
             <br />
             <h3 className="text-lg font-medium"> SSC (2019-20) - 95.20%</h3>
-            <p className=" ">Shri Jageshwar English HIghschool, Wadegaon.</p>
+            <p className=" ">Shri Jageshwar English Highschool, Wadegaon.</p>
           </div>
         </div>
       </div>
