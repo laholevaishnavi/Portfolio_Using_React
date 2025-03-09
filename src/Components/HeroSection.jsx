@@ -16,12 +16,13 @@ const HeroSection = () => {
   return (
     <div className={`flex flex-col items-center justify-center h-screen w-full ${isDarkTheme ? 'bg-black text-white' : 'bg-[#e9d5a1] text-black'}`}>
       
-      {/* profile to be added */}
-<img src={mypic} alt="Profile_Picture" className='h-52 rounded-full' />
+      {/* Profile Picture */}
+      <img src={mypic} alt="Profile_Picture" className='md:h-64 h-40 rounded-full' />
 
-<h1 className={`text-5xl p-5 font-bold ${isDarkTheme ? 'bg-black text-white' : 'bg-[#e9d5a1] text-[#353239]'}`}  >Vaishnavi Lahole</h1>
+      {/* Name */}
+      <h1 className={`md:text-5xl sm:text-4xl   text-6xl  p-5 font-bold text-center ${isDarkTheme ? 'bg-black text-white' : 'bg-[#e9d5a1] text-[#353239]'}`}  >Vaishnavi Lahole</h1>
 
- {/* Typing aniamtion added here */}
+      {/* Typing Animation */}
       <TypeAnimation
         sequence={[
           'Frontend Developer',
@@ -31,11 +32,11 @@ const HeroSection = () => {
         ]}
         speed={50} // Typing speed
         repeat={Infinity} // Repeat the animation
-        className="text-4xl" // Add Tailwind classes for styling
+        className="text-5xl md:text-4xl sm:text-3xl  text-center" // Add Tailwind classes for styling
       />
 
-      {/* Toggle Button For Theme Added here */}
-       <label className="flex m-5 items-center">
+      {/* Toggle Button For Theme */}
+      <label className="flex m-5 items-center">
         <Switch
           onChange={handleToggle}
           checked={isDarkTheme}

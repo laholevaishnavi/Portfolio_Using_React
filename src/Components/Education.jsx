@@ -2,11 +2,11 @@ import React from "react";
 
 const Education = () => {
   return (
-    <div className="h-[90vh] flex flex-col ">
+    <div className="md:h-auto lg:h-[90vh] flex flex-col ">
       <h1 className="h-1/6 pt-16 text-center text-2xl">EDUCATION</h1>
-      <div className="flex h-5/6">
-        <div className="w-1/2 flex justify-end pr-10 pt-10 border-r-2 border-gray-200">
-          <div className="w-4/6 h-3/6 border-2 bg-gray-200 rounded-sm leading-9 pt-5 pl-5">
+      <div className=" lg:flex h-5/6">
+        <div className="md:w-full flex  lg:w-1/2 lg:justify-end px-10 py-10 border-r-2 border-gray-200">
+          <div className="md:w-full lg:w-4/6 h-3/6 border-2  bg-gray-200 rounded-sm leading-9 pt-5 pl-5">
             <h3 className="text-lg font-medium">
               Bachelor of Engineering (2022-26)
             </h3>
@@ -15,8 +15,8 @@ const Education = () => {
             <p>Shri Sant Gajanan Maharaj College Of Engineering, Shegaon .</p>
           </div>
         </div>
-        <div className="w-1/2 flex items-end pl-10 pb-10 border-l-2 border-gray-200">
-          <div className="w-4/6 h-3/6 rounded-sm leading-9 pl-5 pt-5 border-2 bg-gray-200">
+        <div className="lg:w-1/2  md:w-full flex lg:items-end px-10 py-10 border-l-2 border-gray-200">
+          <div className="lg:w-4/6 h-3/6 rounded-sm leading-9 pl-5 pt-5 border-2 bg-gray-200">
             <h3 className="text-lg font-medium">HSC (2021-22) - 80.83%</h3>
             <p>Guru Ganesh Mishri Jain Arts and Science Jr. College.</p>
             <br />

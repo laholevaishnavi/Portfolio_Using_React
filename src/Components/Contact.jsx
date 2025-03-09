@@ -8,13 +8,13 @@ import {
 
 const Contact = () => {
   return (
-    <div className="max-h-full bg-[#1C1C1C] p-4 md:p-8">
+    <div className="max-h-full bg-gray-900 p-4 md:p-8">
       <div className="font-normal text-gray-100 text-center py-4 text-3xl">
         <h1>Get in Touch</h1>
       </div>
-      <div className="flex flex-col md:flex-row items-center justify-evenly p-4 md:p-8 rounded-lg border border-gray-600">
+      <div className="flex flex-col md:flex-row items-center justify-evenly p-4 md:p-8 rounded-lg border border-gray-800">
         <div className="text-white md:w-1/2">
-          <h1 className="text-2xl font-thin text-center">More About Me</h1>
+          <h1 className="text-sm font-thin text-center">More About Me</h1>
           <div className="flex justify-center gap-4 mt-4">
             <a
               href="https://www.linkedin.com"
@@ -39,34 +39,30 @@ const Contact = () => {
             </a>
           </div>
         </div>
-        <div className="md:w-1/2  rounded-lg border border-gray-800 mt-4  p-5 bg-[#0A0A0A] md:mt-0 ">
+        <div className="md:w-1/2 rounded-lg border border-gray-800 mt-4 p-5 bg-gray-950 md:mt-0">
+          <h1 className="text-2xl text-white mb-4 font-normal text-center">Contact Me</h1>
           <form className="flex flex-col gap-4">
-            <div className="w-full">
-              <span>
-                <input
-                  type="text"
-                  placeholder="Firstname"
-                  className="p-2 mr-2 rounded-lg border w-[48%] border-gray-600 focus:outline-none bg-transparent focus:ring-2 focus:ring-blue-500"
-                />
-              </span>
-              <span>
-                <input
-                  type="text"
-                  placeholder="Lastname"
-                  className="p-2 ml-2 rounded-lg border w-[48%] border-gray-600 focus:outline-none bg-transparent  focus:ring-2 focus:ring-blue-500"
-                />
-              </span>
+            <div className="flex justify-between">
+              <input
+                type="text"
+                placeholder="Firstname"
+                className="p-2 w-full md:w-[48%] text-gray-200 rounded-lg border border-gray-600 focus:outline-none bg-transparent focus:ring-2 focus:ring-blue-500"
+              />
+              <input
+                type="text"
+                placeholder="Lastname"
+                className="p-2 w-full md:w-[48%]  text-gray-200 rounded-lg border border-gray-600 focus:outline-none bg-transparent focus:ring-2 focus:ring-blue-500"
+              />
             </div>
             <input
               type="email"
               placeholder="Email"
-              className="p-2 rounded-lg border border-gray-600 focus:outline-none bg-transparent  focus:ring-2 focus:ring-blue-500"
+              className="p-2 rounded-lg border text-gray-200 border-gray-600 focus:outline-none bg-transparent focus:ring-2 focus:ring-blue-500"
             />
-           
             <textarea
               placeholder="Your Message"
               rows="4"
-              className="p-2 rounded-lg border min-w-10 border-gray-600 focus:outline-none focus:ring-2 bg-transparent  focus:ring-blue-500"
+              className="p-2 text-gray-200 rounded-lg border min-w-10 border-gray-600 focus:outline-none focus:ring-2 bg-transparent focus:ring-blue-500"
             />
             <button
               type="submit"

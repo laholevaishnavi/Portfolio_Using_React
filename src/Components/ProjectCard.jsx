@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 
 const ProjectCard = ({ title, description, image, githubLink, demoLink }) => {
   return (
-    <div className="m-1 w-1/4 border-2 bg-white p-10 border-gray-100 rounded-xl">
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+    <div className="m-1 w-full md:w-1/3 lg:w-1/4 border-2 bg-white p-10 border-gray-100 rounded-xl">
+
+      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-900 dark:border-gray-700">
         <Link to={githubLink}>
           <img className="rounded-t-lg" src={image} alt={title} />
         </Link>
