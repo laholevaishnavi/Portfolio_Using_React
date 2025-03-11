@@ -12,7 +12,6 @@ import Projects from "./Components/Projects";
 import Project from "./Pages/ProjectPage";
 import ProjectPage from "./Pages/ProjectPage";
 
-
 const App = () => {
   const resumeData = {
     basic_info: {
@@ -43,49 +42,46 @@ const App = () => {
     ],
   };
 
-const PageLayout = ()=>{
-  return (
-    <>
-    <Navbar />
-      <HeroSection />
-      <About />
-      <Skills />
-      <Projects />
-      
-      <Experience
-        resumeExperience={resumeData.experience}
-        resumeBasicInfo={resumeData.basic_info}
-      />
-      <Education />
-      <Contact />
-      <Footer />
-    
-    </>
-  )
-}
+  const PageLayout = () => {
+    return (
+      <>
+        <Navbar />
+        <HeroSection />
+        <About />
+        <Projects />
+        <Skills />
+        
 
-const router = createBrowserRouter([
-  {
-    path : "/Projects",
-    element : <ProjectPage/>
-  },
-  {
-    path : "/",
-    element : <PageLayout/>
-  },
-  {
-    path : "/Project/:id",
-    element : <Project/>
-  },
+        <Experience
+          resumeExperience={resumeData.experience}
+          resumeBasicInfo={resumeData.basic_info}
+        />
+        <Education />
+        <Contact />
+        <Footer />
+      </>
+    );
+  };
 
-])
+  const router = createBrowserRouter([
+    {
+      path: "/Projects",
+      element: <ProjectPage />,
+    },
+    {
+      path: "/",
+      element: <PageLayout />,
+    },
+    {
+      path: "/Project/:id",
+      element: <Project />,
+    },
+  ]);
 
   return (
     <div>
-
       <RouterProvider router={router} />
     </div>
-      
   );
 };
 

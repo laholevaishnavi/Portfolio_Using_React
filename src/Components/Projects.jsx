@@ -11,7 +11,8 @@ const Projects = () => {
   },[]);
 
   return (
-    <div className="  pb-16">
+    <div id="projects" className="  bg-[#efe1bd] pb-16">
+
       <h1 className="text-3xl md:text-4xl font-bold text-center text-black mb-4 pt-16 pb-16">Projects</h1>
       <div className="flex flex-wrap w-screen justify-center">
       {
@@ -25,7 +26,7 @@ const Projects = () => {
         
       </div>
       <div className="text-center">
-        <Link to="/Projects"><button className="inline-flex items-center px-3 py-2 mt-4 text-lg font-medium text-center text-white bg-blue-700 rounded-xl hover:bg-blue-800 ">More Projects »</button> </Link>
+        <Link to="/Projects"><button className="inline-flex items-center px-3 py-2 mt-4 text-lg font-medium text-center text-white bg-[#696969] rounded-xl hover:bg-blue-800 ">More Projects »</button> </Link>
       </div>
     </div>
   );

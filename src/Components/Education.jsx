@@ -2,7 +2,8 @@ import React from "react";
 
 const Education = () => {
   return (
-    <div className="md:h-auto lg:h-[90vh] flex flex-col ">
+    <div id="education" className="md:h-auto lg:h-[90vh] flex flex-col ">
+
       <h1 className="h-1/6 pt-16 text-center text-2xl">EDUCATION</h1>
       <div className=" lg:flex h-5/6">
         <div className="md:w-full flex  lg:w-1/2 lg:justify-end px-10 py-10 border-r-2 border-gray-200">
@@ -16,7 +17,7 @@ const Education = () => {
           </div>
         </div>
         <div className="lg:w-1/2  md:w-full flex lg:items-end px-10 py-10 border-l-2 border-gray-200">
-          <div className="lg:w-4/6 h-3/6 rounded-sm leading-9 pl-5 pt-5 border-2 bg-gray-200">
+          <div className="lg:w-4/6  md:w-full h-3/6 rounded-sm leading-9 pl-5 pt-5 border-2 bg-gray-200">
             <h3 className="text-lg font-medium">HSC (2021-22) - 80.83%</h3>
             <p>Guru Ganesh Mishri Jain Arts and Science Jr. College.</p>
             <br />

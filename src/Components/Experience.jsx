@@ -65,7 +65,8 @@ const Experience = ({ resumeExperience, resumeBasicInfo }) => {
   });
 
   return (
-    <section id="resume" className="pb-5 bg-[#efe1bd]">
+<section id="experience" className="pb-5 bg-[#efe1bd]">
+
       <div className="container mx-auto px-4">
         <div className="w-full">
           <h1 className="text-3xl  pt-16  pb-16 md:text-4xl font-bold text-center text-black mb-4">

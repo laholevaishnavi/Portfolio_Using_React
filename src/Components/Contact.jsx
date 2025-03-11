@@ -8,7 +8,8 @@ import {
 
 const Contact = () => {
   return (
-    <div className="max-h-full bg-gray-900 p-4 md:p-8">
+    <div id="contact" className="max-h-full bg-gray-900 p-4 md:p-8">
+
       <div className="font-normal text-gray-100 text-center py-4 text-3xl">
         <h1>Get in Touch</h1>
       </div>

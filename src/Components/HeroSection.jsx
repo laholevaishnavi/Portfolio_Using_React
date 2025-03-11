@@ -20,7 +20,7 @@ const HeroSection = () => {
       <img src={mypic} alt="Profile_Picture" className='md:h-64 h-40 rounded-full' />
 
       {/* Name */}
-      <h1 className={`md:text-5xl sm:text-4xl   text-6xl  p-5 font-bold text-center ${isDarkTheme ? 'bg-black text-white' : 'bg-[#e9d5a1] text-[#353239]'}`}  >Vaishnavi Lahole</h1>
+      <h1 className={`md:text-4xl text-4xl p-5 font-semibold text-center ${isDarkTheme ? 'bg-black text-white' : 'bg-[#e9d5a1] text-[#353239]'}`}  >Vaishnavi Lahole</h1>
 
       {/* Typing Animation */}
       <TypeAnimation
@@ -32,7 +32,7 @@ const HeroSection = () => {
         ]}
         speed={50} // Typing speed
         repeat={Infinity} // Repeat the animation
-        className="text-5xl md:text-4xl sm:text-3xl  text-center" // Add Tailwind classes for styling
+        className="text-3xl md:text-3xl sm:text-3xl  text-center" // Add Tailwind classes for styling
       />
 
       {/* Toggle Button For Theme */}
