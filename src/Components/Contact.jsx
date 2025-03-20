@@ -18,21 +18,21 @@ const Contact = () => {
           <h1 className="text-sm font-thin text-center">More About Me</h1>
           <div className="flex justify-center gap-4 mt-4">
             <a
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/in/vaishnavi-lahole-a4665a281"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FontAwesomeIcon icon={faLinkedin} size="2x" />
             </a>
             <a
-              href="https://www.twitter.com"
+              href="https://x.com/LaholeVaishnavi?s=09"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FontAwesomeIcon icon={faTwitter} size="2x" />
             </a>
             <a
-              href="https://www.github.com"
+              href="https://github.com/laholevaishnavi"
               target="_blank"
               rel="noopener noreferrer"
             >

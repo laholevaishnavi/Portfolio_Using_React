@@ -5,9 +5,9 @@ const ProjectCard = ({ title, description, image, githubLink, demoLink }) => {
   return (
     <div className="m-1 w-full md:w-1/3 lg:w-1/4  bg-[#efe1bd] p-10  rounded-xl">
 
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg  shadow-sm dark:bg-gray-100 dark:border-gray-400">
+      <div className="max-w-sm bg-white border shadow-lg shadow-black rounded-lg   dark:bg-gray-100 ">
         <Link to={githubLink}>
-          <img className="rounded-t-lg" src={image} alt={title} />
+          <img className=" rounded-lg  shadow-lg" src={image} alt={title} />
         </Link>
         <div className="p-5">
           <Link to={githubLink}>
