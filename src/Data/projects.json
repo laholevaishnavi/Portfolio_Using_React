@@ -17,11 +17,11 @@
   },
   {
     "id": 3,
-    "title": "Steganography-Tool",
-    "description": "A Python tool for hiding secret messages inside images using steganography.",
-    "image": "https://img.freepik.com/free-vector/computer-with-binary-code-screen_1308-115006.jpg?ga=GA1.1.1684150274.1739416745&semt=ais_hybrid",
-    "githubLink":"https://github.com/laholevaishnavi/Steganography-Tool",
-    "demoLink":"https://github.com/laholevaishnavi/Steganography-Tool"
+    "title": "DevSphere",
+    "description": "DevSphere is a vibrant platform connecting tech enthusiasts across all fields. Discover, network, and collaborate with people who share your passions and interests in technology — all in one place.",
+    "image": "https://cdn.pixabay.com/photo/2023/06/13/18/32/ai-generated-8061569_1280.jpg",
+    "githubLink":"https://github.com/laholevaishnavi/DevSphere",
+    "demoLink":"https://github.com/laholevaishnavi/DevSphere"
   },
   {
     "id": 4,
@@ -33,6 +33,15 @@
   },
   {
     "id": 5,
+    "title": "Steganography-Tool",
+    "description": "A Python tool for hiding secret messages inside images using steganography.",
+    "image": "https://img.freepik.com/free-vector/computer-with-binary-code-screen_1308-115006.jpg?ga=GA1.1.1684150274.1739416745&semt=ais_hybrid",
+    "githubLink":"https://github.com/laholevaishnavi/Steganography-Tool",
+    "demoLink":"https://github.com/laholevaishnavi/Steganography-Tool"
+  },
+ 
+  {
+    "id": 6,
     "title": "Mini Arithmetic Expression Evaluator",
     "description": "The Mini Arithmetic Expression Evaluator is a Python-based command line tool that parses and evaluates arithmetic expressions. Users can input expressions directly, and it efficiently returns results for basic operations.",
     "image": "https://img.freepik.com/premium-photo/calculator_52137-8961.jpg?ga=GA1.1.1684150274.1739416745&semt=ais_hybrid",
